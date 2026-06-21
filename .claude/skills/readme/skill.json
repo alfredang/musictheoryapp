@@ -1,0 +1,53 @@
+{
+  "name": "readme",
+  "version": "1.0.0",
+  "description": "Generate comprehensive README.md files with tech badges, stack info, file structure, setup guides, diagrams, and more",
+  "author": "Claude Code Skills",
+  "license": "MIT",
+  "triggers": [
+    "/readme",
+    "generate readme",
+    "create readme"
+  ],
+  "keywords": [
+    "readme",
+    "documentation",
+    "markdown",
+    "github",
+    "badges",
+    "setup"
+  ],
+  "scope": "global",
+  "inputs": {
+    "project_path": {
+      "type": "string",
+      "description": "Path to the project (defaults to current directory)",
+      "required": false,
+      "default": "."
+    },
+    "style": {
+      "type": "string",
+      "description": "README style: minimal, standard, comprehensive",
+      "required": false,
+      "default": "comprehensive",
+      "enum": ["minimal", "standard", "comprehensive"]
+    },
+    "include_demo": {
+      "type": "boolean",
+      "description": "Include live demo section",
+      "required": false,
+      "default": true
+    }
+  },
+  "outputs": {
+    "readme_path": {
+      "type": "string",
+      "description": "Path to generated README.md"
+    }
+  },
+  "files": {
+    "prompt": "prompt.md",
+    "templates": "templates/",
+    "examples": "examples/"
+  }
+}

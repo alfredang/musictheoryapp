@@ -1,0 +1,32 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.p8
+*.mobileprovision
+*.cer
+*.p12
+
+# Xcode build
+build/
+build-sim/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.moved-aside
+
+# Generated Xcode project (regenerate with `xcodegen generate`)
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# macOS
+.DS_Store
+*.swp
+
+# Misc
+*.ipa
+*.dSYM.zip
+*.dSYM
+/tmp/
+ExportOptions.plist

@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0173B09D73CB63C310141BC7 /* LessonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0A338E4AADEA75BFDDE02 /* LessonDetailView.swift */; };
+		1DA24FA8142A31B5557DDF7B /* PianoKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646C15A83E52C773BF002B67 /* PianoKeyboardView.swift */; };
+		1E7AD17815EF21BEA5587440 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012CEE79FBB2A5F272F653F5 /* Chord.swift */; };
+		256A1025EEB352053B8F0F1D /* CircleOfFifthsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66E67D8B6FFAF41D997D89 /* CircleOfFifthsView.swift */; };
+		31CCB63F8E593C8C6C9FE646 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B876976B8A9C3BE31FC57B /* ProgressStore.swift */; };
+		401217BAFCBED0B8D2382172 /* GenreViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBA08C88547A5B27719816 /* GenreViews.swift */; };
+		4057F432E46510836D8B4A6F /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097B3F388C5C4297383761B /* Pitch.swift */; };
+		4A8115CB5DD55D7379D4CE60 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9F78E26A0F32E3140A900 /* RootTabView.swift */; };
+		4B1DEE744B56EB7DB5F7D467 /* GlossaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96720A6A4B3CB6AE07A7F3BC /* GlossaryData.swift */; };
+		50684E794B901216B29F3C61 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95278065DD328A714CA69E24 /* Theme.swift */; };
+		5582FBCA90E736F63A937BC2 /* StaffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB034F34640A4328F436F188 /* StaffView.swift */; };
+		5C18FD58D8BD31C949FB5790 /* GenreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FF9E00E2EF0E342BFC0E8 /* GenreData.swift */; };
+		5CDF08FB83181B0C7B9529CF /* ToneEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986017FAB2695FDB93BFF816 /* ToneEngine.swift */; };
+		5E0E54C54EF6C6DEF79DE475 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188B918A3E25E4386C3D2CB /* ResultView.swift */; };
+		5EBBA28C660A1DBA8CB87D36 /* MusicTheoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438B3BAA14CA41BC319B908 /* MusicTheoryApp.swift */; };
+		6A1D21ED77479A52AEAC29C7 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE81F949EA713DA58914A428 /* FeedbackView.swift */; };
+		8036329C358EA94ACFAF0277 /* ChordsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CE8FF3D37360EEB54D10EA /* ChordsHomeView.swift */; };
+		838D082B65D10D5EEFD1F8EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB05251C0EF2FD35501C2D66 /* Assets.xcassets */; };
+		87372C64C778C9D1EF2B53F0 /* LessonBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20689C69E353B1914F3515B2 /* LessonBlockView.swift */; };
+		936F451FA99FAE42ADAD86CB /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996E3AD92D5BAA3923074B96 /* Lesson.swift */; };
+		9427558BABF1F32557E55165 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07CC40DABAB2BA1CB882E7 /* Genre.swift */; };
+		96729B37D2158B19FF07D834 /* ExamsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D0CFC1555C607DA239DAD /* ExamsHomeView.swift */; };
+		AB5BE72CE5C00856C37D2276 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8285D14BCB392C2EFA7103E8 /* AboutView.swift */; };
+		AD17AA913E2AE3E067298C3B /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA0F3FF814D02E300F6E96B /* Interval.swift */; };
+		AF8374D1B37D90CE626CF7B3 /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B20AFBF5107296BE11A8A3F /* Exam.swift */; };
+		B6FC65B97274A09E8ECD925B /* LessonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA8DFE9D08EF994F3B60EC /* LessonData.swift */; };
+		B9D7E72FBC65C77F18B60329 /* ScaleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF1AC512E90C306B831E18 /* ScaleDetailView.swift */; };
+		C56F84E36A2A8BAC6278A03F /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE1641A74BF103CF7A7D44 /* FlexibleView.swift */; };
+		CF564A7EE511EA0314FBA07B /* ChordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B9EFF8D53DA7C8BF9DBF7 /* ChordDetailView.swift */; };
+		DA694D93AD2DF87216151505 /* Notation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55972743C5C254D1BB950A2 /* Notation.swift */; };
+		E84795B5F39D240B47A35BF8 /* ScalesHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3F8756331621DBFE80BCE /* ScalesHomeView.swift */; };
+		E9C6D6BDFECC5E563C024030 /* NoteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5F9B7C0A8252C0375F02D /* NoteSequence.swift */; };
+		EBCB5A3BA46B37CB76980BF2 /* ExamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F231E4FFACAF29AA2DE03 /* ExamData.swift */; };
+		EE4874AA1E8E2A96242601AD /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939BCFBF49DD580A5C49DBC /* QuizView.swift */; };
+		F5963931A491FA7811F256B2 /* LearnHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA7E0CDB426A76DC7E9084 /* LearnHomeView.swift */; };
+		FCD6803143872DF0ABB3653C /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFDE4A01FE7CA588502FF8 /* Scale.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012CEE79FBB2A5F272F653F5 /* Chord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		0E1B9EFF8D53DA7C8BF9DBF7 /* ChordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordDetailView.swift; sourceTree = "<group>"; };
+		1097B3F388C5C4297383761B /* Pitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
+		1A4FF9E00E2EF0E342BFC0E8 /* GenreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreData.swift; sourceTree = "<group>"; };
+		1AAE1641A74BF103CF7A7D44 /* FlexibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
+		20689C69E353B1914F3515B2 /* LessonBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonBlockView.swift; sourceTree = "<group>"; };
+		2B20AFBF5107296BE11A8A3F /* Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
+		2C66E67D8B6FFAF41D997D89 /* CircleOfFifthsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOfFifthsView.swift; sourceTree = "<group>"; };
+		3939BCFBF49DD580A5C49DBC /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		63D5F9B7C0A8252C0375F02D /* NoteSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSequence.swift; sourceTree = "<group>"; };
+		646C15A83E52C773BF002B67 /* PianoKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKeyboardView.swift; sourceTree = "<group>"; };
+		69B876976B8A9C3BE31FC57B /* ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
+		6E9F231E4FFACAF29AA2DE03 /* ExamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamData.swift; sourceTree = "<group>"; };
+		777D0CFC1555C607DA239DAD /* ExamsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsHomeView.swift; sourceTree = "<group>"; };
+		78E9F78E26A0F32E3140A900 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		8285D14BCB392C2EFA7103E8 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		923FB9CCB03340F4945CB9D7 /* MusicTheory.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MusicTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95278065DD328A714CA69E24 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		96720A6A4B3CB6AE07A7F3BC /* GlossaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryData.swift; sourceTree = "<group>"; };
+		986017FAB2695FDB93BFF816 /* ToneEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneEngine.swift; sourceTree = "<group>"; };
+		996E3AD92D5BAA3923074B96 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		A0C3F8756331621DBFE80BCE /* ScalesHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalesHomeView.swift; sourceTree = "<group>"; };
+		A438B3BAA14CA41BC319B908 /* MusicTheoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTheoryApp.swift; sourceTree = "<group>"; };
+		AEEA8DFE9D08EF994F3B60EC /* LessonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonData.swift; sourceTree = "<group>"; };
+		B55972743C5C254D1BB950A2 /* Notation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notation.swift; sourceTree = "<group>"; };
+		BE81F949EA713DA58914A428 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		C6CE8FF3D37360EEB54D10EA /* ChordsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordsHomeView.swift; sourceTree = "<group>"; };
+		C7CFDE4A01FE7CA588502FF8 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		C9FF1AC512E90C306B831E18 /* ScaleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleDetailView.swift; sourceTree = "<group>"; };
+		CAA0F3FF814D02E300F6E96B /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
+		CEDBA08C88547A5B27719816 /* GenreViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViews.swift; sourceTree = "<group>"; };
+		D188B918A3E25E4386C3D2CB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		DB05251C0EF2FD35501C2D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE07CC40DABAB2BA1CB882E7 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		DFCA7E0CDB426A76DC7E9084 /* LearnHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnHomeView.swift; sourceTree = "<group>"; };
+		E9E0A338E4AADEA75BFDDE02 /* LessonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailView.swift; sourceTree = "<group>"; };
+		F6CA554584D6239C93D0F39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FB034F34640A4328F436F188 /* StaffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00CF1E82A428DE1F1BD406BA /* More */ = {
+			isa = PBXGroup;
+			children = (
+				8285D14BCB392C2EFA7103E8 /* AboutView.swift */,
+				BE81F949EA713DA58914A428 /* FeedbackView.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		0192A78DCA95DEA9324AABBF /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				986017FAB2695FDB93BFF816 /* ToneEngine.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		19B7D0642100941514C3BCE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923FB9CCB03340F4945CB9D7 /* MusicTheory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EB6F3CDC4FDBFEC6F222C93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB05251C0EF2FD35501C2D66 /* Assets.xcassets */,
+				F6CA554584D6239C93D0F39E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25C46A03C0994180821C6044 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A438B3BAA14CA41BC319B908 /* MusicTheoryApp.swift */,
+				78E9F78E26A0F32E3140A900 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2B01B864F8FB7BF28DDD11CA /* Exams */ = {
+			isa = PBXGroup;
+			children = (
+				777D0CFC1555C607DA239DAD /* ExamsHomeView.swift */,
+				3939BCFBF49DD580A5C49DBC /* QuizView.swift */,
+				D188B918A3E25E4386C3D2CB /* ResultView.swift */,
+			);
+			path = Exams;
+			sourceTree = "<group>";
+		};
+		2C47BE1F7B71D3B873475233 /* Scales */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF1AC512E90C306B831E18 /* ScaleDetailView.swift */,
+				A0C3F8756331621DBFE80BCE /* ScalesHomeView.swift */,
+			);
+			path = Scales;
+			sourceTree = "<group>";
+		};
+		420F87544AF1E4674D30FB37 = {
+			isa = PBXGroup;
+			children = (
+				1EB6F3CDC4FDBFEC6F222C93 /* Resources */,
+				C5F385889137BA6D7E05C537 /* Sources */,
+				19B7D0642100941514C3BCE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54137D07EB77053B49408260 /* Chords */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B9EFF8D53DA7C8BF9DBF7 /* ChordDetailView.swift */,
+				C6CE8FF3D37360EEB54D10EA /* ChordsHomeView.swift */,
+			);
+			path = Chords;
+			sourceTree = "<group>";
+		};
+		601229E4EE161A075EAC3B27 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F231E4FFACAF29AA2DE03 /* ExamData.swift */,
+				1A4FF9E00E2EF0E342BFC0E8 /* GenreData.swift */,
+				96720A6A4B3CB6AE07A7F3BC /* GlossaryData.swift */,
+				AEEA8DFE9D08EF994F3B60EC /* LessonData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7168050205472EE64DF234BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				012CEE79FBB2A5F272F653F5 /* Chord.swift */,
+				2B20AFBF5107296BE11A8A3F /* Exam.swift */,
+				DE07CC40DABAB2BA1CB882E7 /* Genre.swift */,
+				CAA0F3FF814D02E300F6E96B /* Interval.swift */,
+				996E3AD92D5BAA3923074B96 /* Lesson.swift */,
+				B55972743C5C254D1BB950A2 /* Notation.swift */,
+				63D5F9B7C0A8252C0375F02D /* NoteSequence.swift */,
+				1097B3F388C5C4297383761B /* Pitch.swift */,
+				69B876976B8A9C3BE31FC57B /* ProgressStore.swift */,
+				C7CFDE4A01FE7CA588502FF8 /* Scale.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		97FE9D57DC5489B52E718E8F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2C66E67D8B6FFAF41D997D89 /* CircleOfFifthsView.swift */,
+				1AAE1641A74BF103CF7A7D44 /* FlexibleView.swift */,
+				646C15A83E52C773BF002B67 /* PianoKeyboardView.swift */,
+				FB034F34640A4328F436F188 /* StaffView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC87181D5FE092A51158DF6F /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				95278065DD328A714CA69E24 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		C5F385889137BA6D7E05C537 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				25C46A03C0994180821C6044 /* App */,
+				0192A78DCA95DEA9324AABBF /* Audio */,
+				97FE9D57DC5489B52E718E8F /* Components */,
+				601229E4EE161A075EAC3B27 /* Data */,
+				C7D3115ABA0D39AF823FDB33 /* Features */,
+				7168050205472EE64DF234BB /* Models */,
+				AC87181D5FE092A51158DF6F /* Theme */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C7D3115ABA0D39AF823FDB33 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				54137D07EB77053B49408260 /* Chords */,
+				2B01B864F8FB7BF28DDD11CA /* Exams */,
+				FF949A053F0097E972FC783E /* Learn */,
+				00CF1E82A428DE1F1BD406BA /* More */,
+				2C47BE1F7B71D3B873475233 /* Scales */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FF949A053F0097E972FC783E /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				CEDBA08C88547A5B27719816 /* GenreViews.swift */,
+				DFCA7E0CDB426A76DC7E9084 /* LearnHomeView.swift */,
+				20689C69E353B1914F3515B2 /* LessonBlockView.swift */,
+				E9E0A338E4AADEA75BFDDE02 /* LessonDetailView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FDA492000EEF28079428DA /* MusicTheory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B10DC2AD3FFF16D298644 /* Build configuration list for PBXNativeTarget "MusicTheory" */;
+			buildPhases = (
+				5F13F7F0E11EB99B8DFD581A /* Sources */,
+				5985E437E09E0C400C46DFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicTheory;
+			packageProductDependencies = (
+			);
+			productName = MusicTheory;
+			productReference = 923FB9CCB03340F4945CB9D7 /* MusicTheory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		815A518672518A80A6A699DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					66FDA492000EEF28079428DA = {
+						DevelopmentTeam = GU9WTSTX9M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C3C6E6C5B12D8C2E04C1260 /* Build configuration list for PBXProject "MusicTheory" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 420F87544AF1E4674D30FB37;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 19B7D0642100941514C3BCE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FDA492000EEF28079428DA /* MusicTheory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5985E437E09E0C400C46DFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838D082B65D10D5EEFD1F8EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F13F7F0E11EB99B8DFD581A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5BE72CE5C00856C37D2276 /* AboutView.swift in Sources */,
+				1E7AD17815EF21BEA5587440 /* Chord.swift in Sources */,
+				CF564A7EE511EA0314FBA07B /* ChordDetailView.swift in Sources */,
+				8036329C358EA94ACFAF0277 /* ChordsHomeView.swift in Sources */,
+				256A1025EEB352053B8F0F1D /* CircleOfFifthsView.swift in Sources */,
+				AF8374D1B37D90CE626CF7B3 /* Exam.swift in Sources */,
+				EBCB5A3BA46B37CB76980BF2 /* ExamData.swift in Sources */,
+				96729B37D2158B19FF07D834 /* ExamsHomeView.swift in Sources */,
+				6A1D21ED77479A52AEAC29C7 /* FeedbackView.swift in Sources */,
+				C56F84E36A2A8BAC6278A03F /* FlexibleView.swift in Sources */,
+				9427558BABF1F32557E55165 /* Genre.swift in Sources */,
+				5C18FD58D8BD31C949FB5790 /* GenreData.swift in Sources */,
+				401217BAFCBED0B8D2382172 /* GenreViews.swift in Sources */,
+				4B1DEE744B56EB7DB5F7D467 /* GlossaryData.swift in Sources */,
+				AD17AA913E2AE3E067298C3B /* Interval.swift in Sources */,
+				F5963931A491FA7811F256B2 /* LearnHomeView.swift in Sources */,
+				936F451FA99FAE42ADAD86CB /* Lesson.swift in Sources */,
+				87372C64C778C9D1EF2B53F0 /* LessonBlockView.swift in Sources */,
+				B6FC65B97274A09E8ECD925B /* LessonData.swift in Sources */,
+				0173B09D73CB63C310141BC7 /* LessonDetailView.swift in Sources */,
+				5EBBA28C660A1DBA8CB87D36 /* MusicTheoryApp.swift in Sources */,
+				DA694D93AD2DF87216151505 /* Notation.swift in Sources */,
+				E9C6D6BDFECC5E563C024030 /* NoteSequence.swift in Sources */,
+				1DA24FA8142A31B5557DDF7B /* PianoKeyboardView.swift in Sources */,
+				4057F432E46510836D8B4A6F /* Pitch.swift in Sources */,
+				31CCB63F8E593C8C6C9FE646 /* ProgressStore.swift in Sources */,
+				EE4874AA1E8E2A96242601AD /* QuizView.swift in Sources */,
+				5E0E54C54EF6C6DEF79DE475 /* ResultView.swift in Sources */,
+				4A8115CB5DD55D7379D4CE60 /* RootTabView.swift in Sources */,
+				FCD6803143872DF0ABB3653C /* Scale.swift in Sources */,
+				B9D7E72FBC65C77F18B60329 /* ScaleDetailView.swift in Sources */,
+				E84795B5F39D240B47A35BF8 /* ScalesHomeView.swift in Sources */,
+				5582FBCA90E736F63A937BC2 /* StaffView.swift in Sources */,
+				50684E794B901216B29F3C61 /* Theme.swift in Sources */,
+				5CDF08FB83181B0C7B9529CF /* ToneEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		152E93B462A1880E045B8F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GU9WTSTX9M;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99406AF0DD0C36BA2FF8C2B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tertiaryinfotech.musictheory;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B014320A050D28168C2BB54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tertiaryinfotech.musictheory;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB71C60A1F36E8FE6C4B0906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GU9WTSTX9M;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3C6E6C5B12D8C2E04C1260 /* Build configuration list for PBXProject "MusicTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152E93B462A1880E045B8F2F /* Debug */,
+				FB71C60A1F36E8FE6C4B0906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		231B10DC2AD3FFF16D298644 /* Build configuration list for PBXNativeTarget "MusicTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B014320A050D28168C2BB54A /* Debug */,
+				99406AF0DD0C36BA2FF8C2B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 815A518672518A80A6A699DA /* Project object */;
+}
