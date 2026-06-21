@@ -10,6 +10,7 @@
 # Xcode build
 build/
 build-sim/
+build-device/
 DerivedData/
 *.xcuserstate
 xcuserdata/
@@ -30,3 +31,6 @@ xcuserdata/
 *.dSYM
 /tmp/
 ExportOptions.plist
+
+# Playwright MCP artifacts
+.playwright-mcp/
