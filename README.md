@@ -12,7 +12,11 @@ scales, the circle of fifths, chords, and the harmony behind jazz, blues and R&B
 ![Universal](https://img.shields.io/badge/device-iPhone%20%26%20iPad-lightgrey)
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 
-[Download on the App Store](https://apps.apple.com/us/app/music-theory-maestro/id6782606403) · [GitHub Repository](https://github.com/alfredang/musictheoryapp)
+<a href="https://apps.apple.com/us/app/music-theory-maestro/id6782606403">
+  <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="48">
+</a>
+
+[GitHub Repository](https://github.com/alfredang/musictheoryapp)
 
 ## ✨ Features
 
