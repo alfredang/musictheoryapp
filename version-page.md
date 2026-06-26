@@ -1,0 +1,402 @@
+- generic [active] [ref=e1]:
+  - banner "App Store Connect" [ref=e3]:
+    - generic [ref=e4]:
+      - heading "App Store Connect" [level=1] [ref=e20]:
+        - link "App Store Connect" [ref=e21] [cursor=pointer]:
+          - /url: /
+      - navigation "Global" [ref=e7]:
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - link "Apps" [ref=e25] [cursor=pointer]:
+              - /url: /apps
+          - listitem [ref=e26]:
+            - link "Trends" [ref=e27] [cursor=pointer]:
+              - /url: /trends
+          - listitem [ref=e28]:
+            - link "Reports" [ref=e29] [cursor=pointer]:
+              - /url: /itc/payments_and_financial_reports
+          - listitem [ref=e30]:
+            - link "Business" [ref=e31] [cursor=pointer]:
+              - /url: /business
+          - listitem [ref=e32]:
+            - link "Users and Access" [ref=e33] [cursor=pointer]:
+              - /url: /access/users
+      - button "Chew Hoe Ang Alfred Ang|1001438682|1 Account name menu" [ref=e35] [cursor=pointer]:
+        - generic:
+          - generic: Chew Hoe Ang
+          - generic: Alfred Ang|1001438682|1
+          - img [ref=e36]
+  - generic [ref=e41]:
+    - button "Apps menu, Music Theory Maestro, selected" [ref=e46] [cursor=pointer]:
+      - generic [ref=e47]:
+        - generic "Music Theory Maestro" [ref=e48]:
+          - img "Music Theory Maestro" [ref=e49]
+        - generic [ref=e50]: Music Theory Maestro
+      - img [ref=e52]
+    - navigation "Apps" [ref=e55]:
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - link "Distribution" [ref=e58] [cursor=pointer]:
+            - /url: /apps/6782606403/distribution
+        - listitem [ref=e59]:
+          - link "Analytics" [ref=e60] [cursor=pointer]:
+            - /url: /apps/6782606403/analytics
+        - listitem [ref=e61]:
+          - link "TestFlight" [ref=e62] [cursor=pointer]:
+            - /url: /teams/f026f849-65f1-4ca4-9d49-1b6764131f40/apps/6782606403/testflight
+        - listitem [ref=e63]:
+          - link "Xcode Cloud" [ref=e64] [cursor=pointer]:
+            - /url: /teams/f026f849-65f1-4ca4-9d49-1b6764131f40/apps/6782606403/ci
+  - main [ref=e68]:
+    - generic [ref=e73]:
+      - navigation "Distribution" [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - generic [ref=e78]:
+              - heading "iOS App" [level=2] [ref=e80]
+              - list [ref=e81]:
+                - listitem [ref=e82]:
+                  - link "1.0 Rejected" [ref=e83] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/ios/version/inflight
+                    - generic [ref=e84]:
+                      - img [ref=e85]
+                      - text: 1.0 Rejected
+            - button "Add Platform" [ref=e87] [cursor=pointer]
+          - listitem [ref=e88]:
+            - separator [ref=e89]
+          - listitem [ref=e90]:
+            - heading "General" [level=2] [ref=e92]
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "App Information" [ref=e95] [cursor=pointer]:
+                  - /url: /apps/6782606403/distribution/info
+                  - generic [ref=e96]: App Information
+              - listitem [ref=e97]:
+                - link "App Review" [ref=e98] [cursor=pointer]:
+                  - /url: /apps/6782606403/distribution/reviewsubmissions
+                  - generic [ref=e100]:
+                    - img [ref=e101]
+                    - text: App Review
+              - listitem [ref=e103]:
+                - link "History" [ref=e104] [cursor=pointer]:
+                  - /url: /apps/6782606403/distribution/activity/ios/versions
+                  - generic [ref=e105]: History
+          - listitem [ref=e106]:
+            - separator [ref=e107]
+          - listitem [ref=e108]:
+            - heading "App Store" [level=2] [ref=e110]
+            - generic [ref=e111]:
+              - heading "Trust & Safety" [level=3] [ref=e113]
+              - list [ref=e114]:
+                - listitem [ref=e115]:
+                  - link "App Privacy" [ref=e116] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/privacy
+                    - generic [ref=e117]: App Privacy
+                - listitem [ref=e118]:
+                  - link "App Accessibility" [ref=e119] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/accessibility
+                    - generic [ref=e120]: App Accessibility
+                - listitem [ref=e121]:
+                  - link "Ratings and Reviews" [ref=e122] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/ratings/ios
+                    - generic [ref=e123]: Ratings and Reviews
+            - generic [ref=e124]:
+              - heading "Growth & Marketing" [level=3] [ref=e126]
+              - list [ref=e127]:
+                - listitem [ref=e128]:
+                  - link "In-App Events" [ref=e129] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/events
+                    - generic [ref=e130]: In-App Events
+                - listitem [ref=e131]:
+                  - link "Custom Product Pages" [ref=e132] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/productpages
+                    - generic [ref=e133]: Custom Product Pages
+                - listitem [ref=e134]:
+                  - link "Product Page Optimization" [ref=e135] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/optimization
+                    - generic [ref=e136]: Product Page Optimization
+                - listitem [ref=e137]:
+                  - link "Promo Codes" [ref=e138] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/promo_codes/generate
+                    - generic [ref=e139]: Promo Codes
+                - listitem [ref=e140]:
+                  - link "Game Center" [ref=e141] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/gamecenter
+                    - generic [ref=e142]: Game Center
+            - generic [ref=e143]:
+              - heading "Monetization" [level=3] [ref=e145]
+              - list [ref=e146]:
+                - listitem [ref=e147]:
+                  - link "Pricing and Availability" [ref=e148] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/pricing
+                    - generic [ref=e149]: Pricing and Availability
+                - listitem [ref=e150]:
+                  - link "In-App Purchases" [ref=e151] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/iaps
+                    - generic [ref=e152]: In-App Purchases
+                - listitem [ref=e153]:
+                  - link "Subscriptions" [ref=e154] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/subscriptions
+                    - generic [ref=e155]: Subscriptions
+            - generic [ref=e156]:
+              - heading "Featuring" [level=3] [ref=e158]
+              - list [ref=e159]:
+                - listitem [ref=e160]:
+                  - link "Nominations" [ref=e161] [cursor=pointer]:
+                    - /url: /apps/6782606403/distribution/nominations
+                    - generic [ref=e162]: Nominations
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - heading "iOS App Version 1.0" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - button "Save" [disabled] [ref=e172]
+              - button "Update Review" [ref=e173] [cursor=pointer]
+          - separator [ref=e174]
+        - generic [ref=e470]:
+          - img [ref=e471]
+          - generic [ref=e473]:
+            - paragraph [ref=e474]: "This item requires your attention:"
+            - paragraph [ref=e475]: The item you submitted was rejected. Learn more from the submission details page.
+            - list [ref=e476]:
+              - listitem [ref=e477]: "2.1.0 Performance: App Completeness"
+          - paragraph [ref=e478]:
+            - link "View Submission" [ref=e479] [cursor=pointer]:
+              - /url: /apps/6782606403/distribution/reviewsubmissions/details/ecda49fa-8b54-404c-893c-89759dc7e2cd
+        - generic [ref=e175]:
+          - generic [ref=e178]:
+            - paragraph [ref=e180]: The assets and metadata below appear on your app’s product page, when users install your app, and will be used for web engine search results once you release your app.
+            - generic [ref=e183]:
+              - button "English (U.S.)" [ref=e184] [cursor=pointer]:
+                - text: English (U.S.)
+                - img [ref=e185]
+              - button "?" [ref=e189] [cursor=pointer]
+          - separator [ref=e190]
+          - generic [ref=e191]:
+            - heading "Previews and Screenshots" [level=3] [ref=e192]
+            - button "More information" [ref=e194] [cursor=pointer]: "?"
+          - paragraph [ref=e195]: Adding accurate screenshots of your app on the newest devices can help you represent the app's user experience. Keep in mind that we'll use these screenshots for all display sizes and localizations. Screenshots are only required for iOS apps, and only the first 3 will be used on the app installation sheets.
+          - generic [ref=e196]:
+            - tablist [ref=e197]:
+              - tab "iPhone" [selected] [ref=e198] [cursor=pointer]:
+                - generic [ref=e199]: iPhone
+              - tab "iPad" [ref=e200] [cursor=pointer]:
+                - generic [ref=e201]: iPad
+              - tab "Apple Watch" [ref=e202] [cursor=pointer]:
+                - generic [ref=e203]: Apple Watch
+            - paragraph [ref=e204]:
+              - link "View All Sizes in Media Manager" [ref=e205] [cursor=pointer]:
+                - /url: /apps/6782606403/distribution/ios/version/inflight/media-manager/iphone
+          - generic [ref=e207]:
+            - generic:
+              - alert
+            - tabpanel "iPhone" [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - img [ref=e213]
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: iPhone
+                    - generic [ref=e220]: 6.5" Display
+                - region [ref=e221]:
+                  - tabpanel [ref=e222]:
+                    - generic [ref=e480]:
+                      - paragraph [ref=e481]: Using 6.9" Display
+                      - paragraph [ref=e482]:
+                        - button "Edit" [ref=e483] [cursor=pointer]
+                    - generic [ref=e485]:
+                      - list "App Previews from English (U.S.) 6.9\" Display"
+                      - list "Screenshots from English (U.S.) 6.9\" Display" [ref=e486]:
+                        - listitem [ref=e487]:
+                          - img "Screenshot 1-learn.png" [ref=e489]:
+                            - img [ref=e491]
+                        - listitem [ref=e492]:
+                          - img "Screenshot 2-scales-wheel.png" [ref=e494]:
+                            - img [ref=e496]
+                        - listitem [ref=e497]:
+                          - img "Screenshot 3-notation-exam.png" [ref=e499]:
+                            - img [ref=e501]
+                        - listitem [ref=e502]:
+                          - img "Screenshot 4-chords.png" [ref=e504]:
+                            - img [ref=e506]
+                        - listitem [ref=e507]:
+                          - img "Screenshot 5-exams.png" [ref=e509]:
+                            - img [ref=e511]
+                    - generic [ref=e227]:
+                      - paragraph [ref=e229]: 0 of 3 App Previews
+                      - paragraph [ref=e231]: 5 of 10 Screenshots
+                      - paragraph [ref=e234]:
+                        - button "Choose File" [disabled] [ref=e235]
+                      - paragraph [ref=e237]:
+                        - button "Delete All" [disabled] [ref=e238]
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - generic [ref=e242]:
+                - generic [ref=e243]: Promotional Text
+                - button "More information" [ref=e245] [cursor=pointer]: "?"
+              - textbox "Promotional Text" [ref=e247]: "Learn music theory the fun way: notation, the Wheel of Scales, chords, and Grade 1-8 mock exams — interactive and playable on iPhone and iPad."
+              - status "Characters remaining" [ref=e249]: "28"
+            - separator [ref=e251]
+            - generic [ref=e252]:
+              - generic [ref=e254]:
+                - generic [ref=e255]: Description
+                - button "More information" [ref=e257] [cursor=pointer]: "?"
+              - textbox "Description" [ref=e259]: Music Theory Maestro is the complete, interactive way to learn music theory on iPhone and iPad — from your very first note to advanced harmony. LEARN FROM BASIC TO ADVANCED • Reading the staff, ledger lines and note names • Treble, bass and alto clefs • Note values, rests, dotted notes and ties • Bars, bar lines and time signatures • Tones, semitones and every interval • Major, minor, modal, pentatonic, blues, whole-tone and chromatic scales • Key signatures, harmony, triads, seventh chords, inversions and cadences • Modes, transposition, ornaments and modulation SEE AND HEAR EVERYTHING • Real music notation you can play back • An interactive piano keyboard • The Wheel of Scales — an interactive Circle of Fifths SCALES & CHORDS • Explore every key and its relative minor • Build any scale or chord and hear it ascending, descending or arpeggiated GRADE 1–8 MOCK EXAMS • Graded multiple-choice tests with notation-reading questions • Instant explanations, scoring and progress tracking • Topic drills and quick mixed practice MUSICAL STYLES • How jazz, blues, R&B/soul and classical each apply theory • Signature chord progressions you can play Perfect for students preparing for graded music exams, self-taught musicians, songwriters and teachers. No account required and everything works offline.
+              - status "Characters remaining" [ref=e261]: 2,687
+            - generic [ref=e262]:
+              - generic [ref=e264]:
+                - generic [ref=e265]: Keywords
+                - button "More information" [ref=e267] [cursor=pointer]: "?"
+              - textbox "Keywords" [ref=e269]: music theory,scales,chords,circle of fifths,sheet music,clef,grade exam,ear training,intervals
+              - status "Characters remaining" [ref=e271]: "6"
+            - generic [ref=e272]:
+              - generic [ref=e274]:
+                - generic [ref=e275]: Support URL
+                - button "More information" [ref=e277] [cursor=pointer]: "?"
+              - textbox "Support URL" [ref=e279]: https://www.tertiaryinfotech.com
+            - generic [ref=e280]:
+              - generic [ref=e282]:
+                - generic [ref=e283]: Marketing URL
+                - button "More information" [ref=e285] [cursor=pointer]: "?"
+              - textbox "Marketing URL" [ref=e287]: https://www.tertiaryinfotech.com
+            - generic [ref=e288]:
+              - generic [ref=e290]:
+                - generic [ref=e291]: Version
+                - button "More information" [ref=e293] [cursor=pointer]: "?"
+              - textbox "Version" [ref=e295]: "1.0"
+            - generic [ref=e296]:
+              - generic [ref=e298]:
+                - generic [ref=e299]: Copyright
+                - button "More information" [ref=e301] [cursor=pointer]: "?"
+              - textbox "Copyright" [ref=e303]: 2026 Tertiary Infotech Academy Pte Ltd
+              - status "Characters remaining" [ref=e305]: "162"
+            - generic [ref=e306]:
+              - generic [ref=e308]:
+                - generic [ref=e309]: Routing App Coverage File
+                - button "More information" [ref=e311] [cursor=pointer]: "?"
+              - generic [ref=e313] [cursor=pointer]:
+                - button "Choose File" [ref=e314]
+                - generic [ref=e316]: Choose File
+          - separator [ref=e317]
+          - button "App Clip" [ref=e319] [cursor=pointer]:
+            - img [ref=e321]
+            - text: App Clip
+          - generic [ref=e324]:
+            - heading "iMessage App" [level=3] [ref=e325]:
+              - button "iMessage App" [ref=e326] [cursor=pointer]:
+                - img [ref=e328]
+                - text: iMessage App
+            - button "More information" [ref=e331] [cursor=pointer]: "?"
+        - generic [ref=e332]:
+          - heading "Build" [level=3] [ref=e334]
+          - table [ref=e336]:
+            - rowgroup [ref=e337]:
+              - row "Build Version Has App Clip" [ref=e338]:
+                - columnheader "Build" [ref=e339]:
+                  - generic [ref=e341]: Build
+                - columnheader "Version" [ref=e342]:
+                  - generic [ref=e344]: Version
+                - columnheader "Has App Clip" [ref=e345]:
+                  - generic [ref=e347]: Has App Clip
+                - columnheader [ref=e348]
+            - rowgroup [ref=e349]:
+              - row "App Icon 2 1.0 No Delete" [ref=e350]:
+                - cell "App Icon 2" [ref=e351]:
+                  - generic [ref=e353]:
+                    - link "App Icon" [ref=e354] [cursor=pointer]:
+                      - /url: /apps/6782606403/testflight/ios/1a87c6c5-b8e4-41fc-81fc-d068451db8ea/metadata
+                      - generic "App Icon" [ref=e355]:
+                        - img "App Icon" [ref=e356]
+                    - link "2" [ref=e358] [cursor=pointer]:
+                      - /url: /apps/6782606403/testflight/ios/1a87c6c5-b8e4-41fc-81fc-d068451db8ea/metadata
+                - cell "1.0" [ref=e359]:
+                  - generic [ref=e360]: "1.0"
+                - cell "No" [ref=e361]:
+                  - paragraph [ref=e363]: "No"
+                - cell "Delete" [ref=e364]:
+                  - button "Delete":
+                    - img [ref=e365] [cursor=pointer]
+          - paragraph [ref=e367]: Included Assets
+          - generic [ref=e369]:
+            - button "App Icon" [ref=e370] [cursor=pointer]:
+              - generic "App Icon" [ref=e371]:
+                - img "App Icon" [ref=e372]
+            - paragraph [ref=e373]: App Icon
+        - generic [ref=e379] [cursor=pointer]:
+          - checkbox "Game Center" [ref=e381]
+          - text: Game Center
+        - separator [ref=e383]
+        - generic [ref=e384]:
+          - heading "App Review Information" [level=3] [ref=e385]
+          - generic [ref=e386]:
+            - generic [ref=e388]:
+              - generic [ref=e390]:
+                - generic [ref=e391]: Sign-In Information
+                - button "More information" [ref=e393] [cursor=pointer]: "?"
+              - paragraph [ref=e394]: Provide a user name and password so we can sign in to your app. We’ll need this to complete your app review.
+              - generic [ref=e396]:
+                - checkbox "Sign-in required" [ref=e397]
+                - generic [ref=e399]: Sign-in required
+            - generic [ref=e400]:
+              - generic [ref=e402]:
+                - generic [ref=e403]: Contact Information
+                - button "More information" [ref=e405] [cursor=pointer]: "?"
+              - textbox "First name" [ref=e408]: Alfred
+              - textbox "Last name" [ref=e411]: Ang
+              - textbox "Phone number" [ref=e414]: "+6596983731"
+              - textbox "Email" [ref=e417]: angch@tertiaryinfotech.com
+            - generic [ref=e418]:
+              - generic [ref=e420]:
+                - generic [ref=e421]: Notes
+                - button "More information" [ref=e423] [cursor=pointer]: "?"
+              - paragraph [ref=e424]:
+                - generic [ref=e425]:
+                  - text: Chinese law requires apps with news, religious, book, and magazine content to have relevant permits in order to be available on the App Store in China mainland. If applicable, enter information about your permits below.
+                  - link "Learn More" [ref=e426] [cursor=pointer]:
+                    - /url: https://developer.apple.com/help/app-store-connect/reference/app-information
+              - textbox "Notes" [ref=e428]: Music Theory Maestro is an educational music-theory tutor (lessons, scales, chords, Grade 1-8 mock exams). No account or login is required; the app collects no user data. All content is available offline.
+              - status "Characters remaining" [ref=e430]: 3,796
+            - generic [ref=e431]:
+              - generic [ref=e433]:
+                - generic [ref=e434]: Attachment
+                - button "More information" [ref=e436] [cursor=pointer]: "?"
+              - generic [ref=e438] [cursor=pointer]:
+                - button "Choose File (Optional)" [ref=e439]
+                - generic [ref=e441]: Choose File (Optional)
+        - separator [ref=e442]
+        - generic [ref=e443]:
+          - heading "App Store Version Release" [level=3] [ref=e444]
+          - paragraph [ref=e445]: To make your app available on the App Store, you can automatically release it after it’s been approved by App Review. You can also manually release it on the App Store at a later date.
+          - generic [ref=e446]:
+            - generic [ref=e448]:
+              - generic [ref=e449]:
+                - radio "Manually release this version" [ref=e450]
+                - generic [ref=e452]: Manually release this version
+              - generic [ref=e453]:
+                - radio "Automatically release this version" [checked] [ref=e454]
+                - generic [ref=e456]: Automatically release this version
+              - generic [ref=e457]:
+                - radio "Automatically release this version after App Review, no earlier than" [ref=e458]
+                - generic [ref=e460]: Automatically release this version after App Review, no earlier than
+            - paragraph [ref=e462]: Your local date and time.
+            - generic [ref=e465]:
+              - textbox "Automatically release this version after App Review, no earlier than" [disabled] [ref=e466]: Jun 26, 2026 02:00
+              - text: GMT+8
+  - contentinfo [ref=e10]:
+    - generic [ref=e11]:
+      - list [ref=e467]:
+        - listitem [ref=e468]:
+          - link "App Store Connect" [ref=e469] [cursor=pointer]:
+            - /url: /apps
+      - list [ref=e12]:
+        - listitem [ref=e13]: Copyright © 2026 Apple Inc. All rights reserved. |
+        - listitem [ref=e14]:
+          - link "Terms of Service" [ref=e15] [cursor=pointer]:
+            - /url: /WebObjects/iTunesConnect.woa/wa/termsOfService
+          - text: "|"
+        - listitem [ref=e16]:
+          - link "Privacy Policy" [ref=e17] [cursor=pointer]:
+            - /url: https://www.apple.com/legal/privacy
+          - text: "|"
+        - listitem [ref=e18]:
+          - link "Contact Us" [ref=e19] [cursor=pointer]:
+            - /url: /contact-us
